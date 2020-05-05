@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229055982461FE2600B32FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055972461FE2600B32FEB /* AppDelegate.swift */; };
+		2290559A2461FE2600B32FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055992461FE2600B32FEB /* SceneDelegate.swift */; };
+		2290559C2461FE2600B32FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290559B2461FE2600B32FEB /* ViewController.swift */; };
+		2290559F2461FE2600B32FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2290559D2461FE2600B32FEB /* Main.storyboard */; };
+		229055A12461FE2800B32FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229055A02461FE2800B32FEB /* Assets.xcassets */; };
+		229055A42461FE2800B32FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229055A22461FE2800B32FEB /* LaunchScreen.storyboard */; };
+		229055AF2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055AE2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift */; };
+		229055BA2461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055B92461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229055AB2461FE2900B32FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2290558C2461FE2600B32FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229055932461FE2600B32FEB;
+			remoteInfo = "Rocket Elevators Mobile";
+		};
+		229055B62461FE2900B32FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2290558C2461FE2600B32FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229055932461FE2600B32FEB;
+			remoteInfo = "Rocket Elevators Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229055942461FE2600B32FEB /* Rocket Elevators Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket Elevators Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229055972461FE2600B32FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229055992461FE2600B32FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2290559B2461FE2600B32FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2290559E2461FE2600B32FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229055A02461FE2800B32FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229055A32461FE2800B32FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229055A52461FE2800B32FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229055AA2461FE2900B32FEB /* Rocket Elevators MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket Elevators MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229055AE2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_Elevators_MobileTests.swift; sourceTree = "<group>"; };
+		229055B02461FE2900B32FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229055B52461FE2900B32FEB /* Rocket Elevators MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket Elevators MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229055B92461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_Elevators_MobileUITests.swift; sourceTree = "<group>"; };
+		229055BB2461FE2900B32FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229055912461FE2600B32FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229055A72461FE2900B32FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229055B22461FE2900B32FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2290558B2461FE2600B32FEB = {
+			isa = PBXGroup;
+			children = (
+				229055962461FE2600B32FEB /* Rocket Elevators Mobile */,
+				229055AD2461FE2900B32FEB /* Rocket Elevators MobileTests */,
+				229055B82461FE2900B32FEB /* Rocket Elevators MobileUITests */,
+				229055952461FE2600B32FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229055952461FE2600B32FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229055942461FE2600B32FEB /* Rocket Elevators Mobile.app */,
+				229055AA2461FE2900B32FEB /* Rocket Elevators MobileTests.xctest */,
+				229055B52461FE2900B32FEB /* Rocket Elevators MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229055962461FE2600B32FEB /* Rocket Elevators Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				229055972461FE2600B32FEB /* AppDelegate.swift */,
+				229055992461FE2600B32FEB /* SceneDelegate.swift */,
+				2290559B2461FE2600B32FEB /* ViewController.swift */,
+				2290559D2461FE2600B32FEB /* Main.storyboard */,
+				229055A02461FE2800B32FEB /* Assets.xcassets */,
+				229055A22461FE2800B32FEB /* LaunchScreen.storyboard */,
+				229055A52461FE2800B32FEB /* Info.plist */,
+			);
+			path = "Rocket Elevators Mobile";
+			sourceTree = "<group>";
+		};
+		229055AD2461FE2900B32FEB /* Rocket Elevators MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				229055AE2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift */,
+				229055B02461FE2900B32FEB /* Info.plist */,
+			);
+			path = "Rocket Elevators MobileTests";
+			sourceTree = "<group>";
+		};
+		229055B82461FE2900B32FEB /* Rocket Elevators MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				229055B92461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift */,
+				229055BB2461FE2900B32FEB /* Info.plist */,
+			);
+			path = "Rocket Elevators MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229055932461FE2600B32FEB /* Rocket Elevators Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229055BE2461FE2900B32FEB /* Build configuration list for PBXNativeTarget "Rocket Elevators Mobile" */;
+			buildPhases = (
+				229055902461FE2600B32FEB /* Sources */,
+				229055912461FE2600B32FEB /* Frameworks */,
+				229055922461FE2600B32FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rocket Elevators Mobile";
+			productName = "Rocket Elevators Mobile";
+			productReference = 229055942461FE2600B32FEB /* Rocket Elevators Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229055A92461FE2900B32FEB /* Rocket Elevators MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229055C12461FE2900B32FEB /* Build configuration list for PBXNativeTarget "Rocket Elevators MobileTests" */;
+			buildPhases = (
+				229055A62461FE2900B32FEB /* Sources */,
+				229055A72461FE2900B32FEB /* Frameworks */,
+				229055A82461FE2900B32FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229055AC2461FE2900B32FEB /* PBXTargetDependency */,
+			);
+			name = "Rocket Elevators MobileTests";
+			productName = "Rocket Elevators MobileTests";
+			productReference = 229055AA2461FE2900B32FEB /* Rocket Elevators MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229055B42461FE2900B32FEB /* Rocket Elevators MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229055C42461FE2900B32FEB /* Build configuration list for PBXNativeTarget "Rocket Elevators MobileUITests" */;
+			buildPhases = (
+				229055B12461FE2900B32FEB /* Sources */,
+				229055B22461FE2900B32FEB /* Frameworks */,
+				229055B32461FE2900B32FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229055B72461FE2900B32FEB /* PBXTargetDependency */,
+			);
+			name = "Rocket Elevators MobileUITests";
+			productName = "Rocket Elevators MobileUITests";
+			productReference = 229055B52461FE2900B32FEB /* Rocket Elevators MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2290558C2461FE2600B32FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Joshua Knutson";
+				TargetAttributes = {
+					229055932461FE2600B32FEB = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					229055A92461FE2900B32FEB = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 229055932461FE2600B32FEB;
+					};
+					229055B42461FE2900B32FEB = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 229055932461FE2600B32FEB;
+					};
+				};
+			};
+			buildConfigurationList = 2290558F2461FE2600B32FEB /* Build configuration list for PBXProject "Rocket Elevators Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2290558B2461FE2600B32FEB;
+			productRefGroup = 229055952461FE2600B32FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229055932461FE2600B32FEB /* Rocket Elevators Mobile */,
+				229055A92461FE2900B32FEB /* Rocket Elevators MobileTests */,
+				229055B42461FE2900B32FEB /* Rocket Elevators MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229055922461FE2600B32FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229055A42461FE2800B32FEB /* LaunchScreen.storyboard in Resources */,
+				229055A12461FE2800B32FEB /* Assets.xcassets in Resources */,
+				2290559F2461FE2600B32FEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229055A82461FE2900B32FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229055B32461FE2900B32FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229055902461FE2600B32FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2290559C2461FE2600B32FEB /* ViewController.swift in Sources */,
+				229055982461FE2600B32FEB /* AppDelegate.swift in Sources */,
+				2290559A2461FE2600B32FEB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229055A62461FE2900B32FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229055AF2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229055B12461FE2900B32FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229055BA2461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229055AC2461FE2900B32FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229055932461FE2600B32FEB /* Rocket Elevators Mobile */;
+			targetProxy = 229055AB2461FE2900B32FEB /* PBXContainerItemProxy */;
+		};
+		229055B72461FE2900B32FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229055932461FE2600B32FEB /* Rocket Elevators Mobile */;
+			targetProxy = 229055B62461FE2900B32FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2290559D2461FE2600B32FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2290559E2461FE2600B32FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229055A22461FE2800B32FEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229055A32461FE2800B32FEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229055BC2461FE2900B32FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229055BD2461FE2900B32FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229055BF2461FE2900B32FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rocket Elevators Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229055C02461FE2900B32FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rocket Elevators Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229055C22461FE2900B32FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rocket Elevators MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket Elevators Mobile.app/Rocket Elevators Mobile";
+			};
+			name = Debug;
+		};
+		229055C32461FE2900B32FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rocket Elevators MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket Elevators Mobile.app/Rocket Elevators Mobile";
+			};
+			name = Release;
+		};
+		229055C52461FE2900B32FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rocket Elevators MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rocket Elevators Mobile";
+			};
+			name = Debug;
+		};
+		229055C62461FE2900B32FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Rocket Elevators MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rocket Elevators Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2290558F2461FE2600B32FEB /* Build configuration list for PBXProject "Rocket Elevators Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229055BC2461FE2900B32FEB /* Debug */,
+				229055BD2461FE2900B32FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229055BE2461FE2900B32FEB /* Build configuration list for PBXNativeTarget "Rocket Elevators Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229055BF2461FE2900B32FEB /* Debug */,
+				229055C02461FE2900B32FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229055C12461FE2900B32FEB /* Build configuration list for PBXNativeTarget "Rocket Elevators MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229055C22461FE2900B32FEB /* Debug */,
+				229055C32461FE2900B32FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229055C42461FE2900B32FEB /* Build configuration list for PBXNativeTarget "Rocket Elevators MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229055C52461FE2900B32FEB /* Debug */,
+				229055C62461FE2900B32FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2290558C2461FE2600B32FEB /* Project object */;
+}
