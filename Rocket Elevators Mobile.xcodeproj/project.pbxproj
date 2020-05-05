@@ -15,6 +15,7 @@
 		229055A42461FE2800B32FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229055A22461FE2800B32FEB /* LaunchScreen.storyboard */; };
 		229055AF2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055AE2461FE2900B32FEB /* Rocket_Elevators_MobileTests.swift */; };
 		229055BA2461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055B92461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift */; };
+		229055C924622E0300B32FEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 229055C824622E0300B32FEB /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		229055B52461FE2900B32FEB /* Rocket Elevators MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket Elevators MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		229055B92461FE2900B32FEB /* Rocket_Elevators_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_Elevators_MobileUITests.swift; sourceTree = "<group>"; };
 		229055BB2461FE2900B32FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229055C824622E0300B32FEB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2290558B2461FE2600B32FEB = {
 			isa = PBXGroup;
 			children = (
+				229055C824622E0300B32FEB /* .gitignore */,
 				229055962461FE2600B32FEB /* Rocket Elevators Mobile */,
 				229055AD2461FE2900B32FEB /* Rocket Elevators MobileTests */,
 				229055B82461FE2900B32FEB /* Rocket Elevators MobileUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229055C924622E0300B32FEB /* .gitignore in Resources */,
 				229055A42461FE2800B32FEB /* LaunchScreen.storyboard in Resources */,
 				229055A12461FE2800B32FEB /* Assets.xcassets in Resources */,
 				2290559F2461FE2600B32FEB /* Main.storyboard in Resources */,
