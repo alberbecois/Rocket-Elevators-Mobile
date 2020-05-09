@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220668E724671CB4005191C8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668E624671CB4005191C8 /* APIManager.swift */; };
+		220668E9246739A8005191C8 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668E8246739A8005191C8 /* LoginData.swift */; };
+		220668EB2467413A005191C8 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668EA2467413A005191C8 /* LoginModel.swift */; };
 		229055982461FE2600B32FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055972461FE2600B32FEB /* AppDelegate.swift */; };
 		2290559A2461FE2600B32FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055992461FE2600B32FEB /* SceneDelegate.swift */; };
 		2290559C2461FE2600B32FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290559B2461FE2600B32FEB /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220668E624671CB4005191C8 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		220668E8246739A8005191C8 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		220668EA2467413A005191C8 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		229055942461FE2600B32FEB /* Rocket Elevators Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket Elevators Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		229055972461FE2600B32FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229055992461FE2600B32FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,9 @@
 				229055A02461FE2800B32FEB /* Assets.xcassets */,
 				229055A22461FE2800B32FEB /* LaunchScreen.storyboard */,
 				229055A52461FE2800B32FEB /* Info.plist */,
+				220668E624671CB4005191C8 /* APIManager.swift */,
+				220668E8246739A8005191C8 /* LoginData.swift */,
+				220668EA2467413A005191C8 /* LoginModel.swift */,
 			);
 			path = "Rocket Elevators Mobile";
 			sourceTree = "<group>";
@@ -263,6 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220668E724671CB4005191C8 /* APIManager.swift in Sources */,
+				220668EB2467413A005191C8 /* LoginModel.swift in Sources */,
+				220668E9246739A8005191C8 /* LoginData.swift in Sources */,
 				2290559C2461FE2600B32FEB /* ViewController.swift in Sources */,
 				229055982461FE2600B32FEB /* AppDelegate.swift in Sources */,
 				2290559A2461FE2600B32FEB /* SceneDelegate.swift in Sources */,
@@ -447,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.joshuaknutson.Rocket-Elevators-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
