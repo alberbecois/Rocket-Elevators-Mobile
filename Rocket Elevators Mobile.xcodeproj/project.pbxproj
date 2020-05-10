@@ -10,6 +10,11 @@
 		220668E724671CB4005191C8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668E624671CB4005191C8 /* APIManager.swift */; };
 		220668E9246739A8005191C8 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668E8246739A8005191C8 /* LoginData.swift */; };
 		220668EB2467413A005191C8 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668EA2467413A005191C8 /* LoginModel.swift */; };
+		220668EF246756C2005191C8 /* ElevatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668EE246756C2005191C8 /* ElevatorViewController.swift */; };
+		220668F124676FC2005191C8 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668F024676FC2005191C8 /* Elevator.swift */; };
+		220668F324677632005191C8 /* ElevatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668F224677632005191C8 /* ElevatorData.swift */; };
+		220668F524678290005191C8 /* ElevatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668F424678290005191C8 /* ElevatorCell.swift */; };
+		220668F724678D65005191C8 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220668F624678D65005191C8 /* StatusViewController.swift */; };
 		229055982461FE2600B32FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055972461FE2600B32FEB /* AppDelegate.swift */; };
 		2290559A2461FE2600B32FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229055992461FE2600B32FEB /* SceneDelegate.swift */; };
 		2290559C2461FE2600B32FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290559B2461FE2600B32FEB /* ViewController.swift */; };
@@ -42,6 +47,11 @@
 		220668E624671CB4005191C8 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		220668E8246739A8005191C8 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
 		220668EA2467413A005191C8 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		220668EE246756C2005191C8 /* ElevatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorViewController.swift; sourceTree = "<group>"; };
+		220668F024676FC2005191C8 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		220668F224677632005191C8 /* ElevatorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorData.swift; sourceTree = "<group>"; };
+		220668F424678290005191C8 /* ElevatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorCell.swift; sourceTree = "<group>"; };
+		220668F624678D65005191C8 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		229055942461FE2600B32FEB /* Rocket Elevators Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket Elevators Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		229055972461FE2600B32FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229055992461FE2600B32FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,12 +122,17 @@
 				229055992461FE2600B32FEB /* SceneDelegate.swift */,
 				2290559B2461FE2600B32FEB /* ViewController.swift */,
 				2290559D2461FE2600B32FEB /* Main.storyboard */,
+				220668F624678D65005191C8 /* StatusViewController.swift */,
 				229055A02461FE2800B32FEB /* Assets.xcassets */,
 				229055A22461FE2800B32FEB /* LaunchScreen.storyboard */,
 				229055A52461FE2800B32FEB /* Info.plist */,
 				220668E624671CB4005191C8 /* APIManager.swift */,
 				220668E8246739A8005191C8 /* LoginData.swift */,
+				220668F224677632005191C8 /* ElevatorData.swift */,
 				220668EA2467413A005191C8 /* LoginModel.swift */,
+				220668EE246756C2005191C8 /* ElevatorViewController.swift */,
+				220668F424678290005191C8 /* ElevatorCell.swift */,
+				220668F024676FC2005191C8 /* Elevator.swift */,
 			);
 			path = "Rocket Elevators Mobile";
 			sourceTree = "<group>";
@@ -273,10 +288,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				220668E724671CB4005191C8 /* APIManager.swift in Sources */,
+				220668EF246756C2005191C8 /* ElevatorViewController.swift in Sources */,
 				220668EB2467413A005191C8 /* LoginModel.swift in Sources */,
+				220668F524678290005191C8 /* ElevatorCell.swift in Sources */,
+				220668F124676FC2005191C8 /* Elevator.swift in Sources */,
 				220668E9246739A8005191C8 /* LoginData.swift in Sources */,
+				220668F324677632005191C8 /* ElevatorData.swift in Sources */,
 				2290559C2461FE2600B32FEB /* ViewController.swift in Sources */,
 				229055982461FE2600B32FEB /* AppDelegate.swift in Sources */,
+				220668F724678D65005191C8 /* StatusViewController.swift in Sources */,
 				2290559A2461FE2600B32FEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

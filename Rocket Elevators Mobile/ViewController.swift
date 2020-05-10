@@ -20,10 +20,15 @@ class ViewController: UIViewController, UITextFieldDelegate, APIManagerDelegate 
         employeeEmail.delegate = self
         apimanager.delegate = self
     }
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
     @IBAction func loginButton(_ sender: UIButton) {
         employeeEmail.endEditing(true)
-        print(employeeEmail.text!)
+        apimanager.getLogin(email: employeeEmail.text!)
     }
   
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -34,7 +39,7 @@ class ViewController: UIViewController, UITextFieldDelegate, APIManagerDelegate 
     
     func didUpdateLogin(login: LoginModel) {
         if login.valid {
-            print(login.welcomeString)
+            performSegue(withIdentifier: "elevatorSegue", sender: self)
         } else {
             loginLabel.textColor = UIColor.red
             loginLabel.text = "Invalid email, please try again."
